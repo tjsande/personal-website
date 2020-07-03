@@ -1,20 +1,47 @@
 import React from 'react';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 class ToolBar extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      //set state
-    };
-  }
-    
   render() {
     return (
       <div id="toolbar">
-        <p class="toolbarButton"> About Me </p>
-        <p class="toolbarButton"> Affiliations </p>
-        <p class="toolbarButton"> Resume </p> 
-        <p class="toolbarButton"> Contact </p>
+      <div class="toolbarButton">
+        <Link
+          class="toolbarButtonActive"
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          > About Me </Link>
+      </div>
+      <div class="toolbarButton">
+        <Link class="toolbarButtonActive"
+          to="resume"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          > Resume </Link> 
+      </div>
+      <div class="toolbarButton">
+        <Link class="toolbarButtonActive"
+          to="projects"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          > Projects </Link>
+      </div>
+      <div class="toolbarButton">
+        <Link class="toolbarButtonActive"
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        > Contact </Link>
+        </div>
       </div>
     );
   };

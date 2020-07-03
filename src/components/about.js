@@ -1,13 +1,6 @@
 import React from 'react';
 
-class About extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      //set state
-    };
-  }
-    
+class About extends React.Component {    
   render() {
     return (
       <body id="about">

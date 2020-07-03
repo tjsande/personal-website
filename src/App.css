@@ -1,5 +1,6 @@
 #homepage {
   height: 100%;
+  width: auto;
   background-color: #f1f1f1;
 }
 
@@ -10,7 +11,8 @@
   z-index: 1;
   height: 60px;
   top: 0;
-  width: 100%;
+  right: 0;
+  width: auto;
   /* background-color: #333333;
   color: #f1f1f1; */
   color: #333333;
@@ -18,33 +20,48 @@
 
 .toolbarButton {
   max-height: 40px;
-  font-size: 25px;
+  font-size: 4fw;
   padding-top: 0px;
   padding-left: 15px;
   padding-right: 15px;
+  font-weight: bold;
+}
+
+.toolbarButtonActive {
+  max-height: 40px;
+  font-size: 4fw;
+  padding-top: 0px;
 }
 
 .toolbarButton:hover {
   transition: color 0.4s ease 0s;
-  color: #FFDA6B;
+  color: #2e7a8b;
+  cursor: pointer;
 }
 
 #header {
   position: relative;
-  background-image: url("images/white-wall.jpg");
+  background-image: url("images/IMG_0001.jpg");
   min-height: 100%;
   /* Center and scale the image nicely */
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #greeting {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  font-size: 4vw;
+  top: 45%;
+  left: 58%;
+  opacity: .8;
   display: inline-block;
-  color: #333333;
+  padding-left: 6px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  font-family: "LuloCleanW01-OneBold";
+  background-color: #010206;
+  color: #f1f1f1;
 }
 
 .body {
@@ -74,6 +91,8 @@
   text-align: center;
 }
 
+
+
 #footer {
   display: block;
   position: relative;
@@ -84,6 +103,24 @@
   background-color: #333333;
   color: #f1f1f1;
 }
+
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  width: 40%;
+}
+
+#submitButton {
+  align-self: center;
+  margin-top: 20px;
+  width: 20%;
+}
+
+@font-face {font-family: "LuloCleanW01-OneBold"; src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot"); src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff") format("woff"), url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.svg#LuloCleanW01-OneBold") format("svg"); }
+
+
 
 body, html {
   height: 100%;
