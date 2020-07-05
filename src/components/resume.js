@@ -1,5 +1,5 @@
 import React from 'react';
-import ResumeImage from '../images/2019_Computer_Science-page.jpg'
+import ResumeImage from '../images/2020_May_Resume.jpg'
 import pdf from '../ResumeMay2020.pdf'
 
 class Resume extends React.Component {
@@ -7,9 +7,9 @@ class Resume extends React.Component {
     return (
       <div id="resume">
         <img src={ResumeImage} alt="Resume" object-fit="cover" width="50%" />
-        <a href={pdf} download="TrevorSandersonResume.pdf">
+        <a id="resumeLink" href={pdf} download="TrevorSandersonResume.pdf">
           Printable Copy
-      </a>
+        </a>
       </div>
     );
   };

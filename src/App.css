@@ -6,21 +6,20 @@
 
 #toolbar {
   display: flex;
-  position: fixed;
+  position: absolute;
   align-items: center;
   z-index: 1;
   height: 60px;
   top: 0;
   right: 0;
   width: auto;
-  /* background-color: #333333;
-  color: #f1f1f1; */
-  color: #333333;
+  opacity: .83;
+  color:  #010206;
 }
 
 .toolbarButton {
   max-height: 40px;
-  font-size: 4fw;
+  font-size: 2vw;
   padding-top: 0px;
   padding-left: 15px;
   padding-right: 15px;
@@ -29,13 +28,13 @@
 
 .toolbarButtonActive {
   max-height: 40px;
-  font-size: 4fw;
+  font-size: 2vw;
   padding-top: 0px;
 }
 
 .toolbarButton:hover {
   transition: color 0.4s ease 0s;
-  color: #2e7a8b;
+  color: #333333;
   cursor: pointer;
 }
 
@@ -74,9 +73,12 @@
 }
 
 #about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 75%;
   padding-top:40px;
-  padding-bottom:60px;
+  padding-bottom:30px;
   background-color: #f1f1f1;
 }
 
@@ -87,11 +89,28 @@
 }
 
 #resume {
-  display: block;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  /* background-color: #afbec9; */
+  background-color: #37a7bb10;
 }
 
+#resumeLink {
+  color: #333333;
+  padding-top: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
 
+#resumeLink:hover {
+  transition: color 0.4s ease 0s;
+  color: #2e7a8b;
+  cursor: pointer;
+}
 
 #footer {
   display: block;
@@ -104,23 +123,44 @@
   color: #f1f1f1;
 }
 
-#contactForm {
+#contactSection {
   display: flex;
   flex-direction: column;
-  padding-top: 40px;
-  padding-bottom: 20px;
-  width: 40%;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
-#submitButton {
-  align-self: center;
-  margin-top: 20px;
-  width: 20%;
+#contactButton {
+  height: 10%;
+  width: 15%;
+  background-color: rgb(248, 195, 34);
+  color:#f1f1f1;
+  border: none;
+  padding: 12px 16px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#messageIcon {
+  width: 15%;
 }
 
 @font-face {font-family: "LuloCleanW01-OneBold"; src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot"); src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff") format("woff"), url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.svg#LuloCleanW01-OneBold") format("svg"); }
 
+p {
+  text-align: center;
+}
 
+h1 {
+  color: #589092;
+}
 
 body, html {
   height: 100%;

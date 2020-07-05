@@ -4,7 +4,7 @@ class About extends React.Component {
   render() {
     return (
       <body id="about">
-        <h2> About Me </h2>
+        <h1> About Me </h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et bibendum lacus. 
         Ut tincidunt dapibus purus, eu pulvinar massa posuere molestie. Vivamus vehicula ante odio, 
         sed lobortis odio scelerisque eu. Nullam maximus aliquam mauris, eu maximus diam imperdiet non. 
