@@ -1,7 +1,7 @@
 #homepage {
-  height: 100%;
+  height: 97%;
   width: auto;
-  background-color: #f1f1f1;
+  background-color: #fff;
 }
 
 #toolbar {
@@ -60,7 +60,7 @@
   border-bottom-left-radius: 12px;
   font-family: "LuloCleanW01-OneBold";
   background-color: #010206;
-  color: #f1f1f1;
+  color: #fff;
 }
 
 .body {
@@ -69,7 +69,7 @@
   flex-direction: column;
   align-items: center;
   height: auto;
-  background-color: #f1f1f1;
+  background-color: #fff;
 }
 
 #about {
@@ -79,13 +79,30 @@
   width: 75%;
   padding-top:40px;
   padding-bottom:30px;
-  background-color: #f1f1f1;
+  background-color: #fff;
 }
 
 #body2 {
   display: block;
   width: 100%;
   background-color: #b6eadd;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  /* background-color:#f2efdf; */
+}
+
+#projectCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 75%;
 }
 
 #resume {
@@ -96,7 +113,7 @@
   padding-top: 30px;
   padding-bottom: 30px;
   /* background-color: #afbec9; */
-  background-color: #37a7bb10;
+  background-color: #fff;
 }
 
 #resumeLink {
@@ -120,7 +137,7 @@
   bottom: 0;
   width: 100%;
   background-color: #333333;
-  color: #f1f1f1;
+  color: #fff;
 }
 
 #contactSection {
@@ -133,11 +150,12 @@
   padding-bottom: 40px;
 }
 
-#contactButton {
-  height: 10%;
+.button {
+  max-height: 54px;
   width: 15%;
-  background-color: rgb(248, 195, 34);
-  color:#f1f1f1;
+  min-width: 200px;
+  background-color: rgb(212, 161, 6);
+  color:#fff;
   border: none;
   padding: 12px 16px;
   cursor: pointer;
@@ -148,18 +166,59 @@
   font-size: 24px;
 }
 
-#messageIcon {
+.card {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  width: 25%;
+  max-width:30%;
+  min-width: 250px;
+  flex-grow: 1;
+  background-color: #eeeeee;
+  color:#333333;
+  border: none;
+  margin: 12px;
+  padding: 12px 16px;
+  text-decoration: none;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#cardTitle {
+  color: #2e7a8b;
+}
+
+#cardButtonWrapper {
+  display: flex;
+  position: relative;
+  flex-direction: column-reverse;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.buttonIcon {
   width: 15%;
+}
+
+#buttonDescription {
+  font-size: 20px;
+  color:#333333;
 }
 
 @font-face {font-family: "LuloCleanW01-OneBold"; src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot"); src: url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff") format("woff"), url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.svg#LuloCleanW01-OneBold") format("svg"); }
 
+
 p {
   text-align: center;
+  font-size: 20px;
 }
 
 h1 {
-  color: #589092;
+  /* color: #589092; */
+  color: #333333;
+  font-size: 60px;
 }
 
 body, html {
