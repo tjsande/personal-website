@@ -6,10 +6,10 @@ class Card extends React.Component {
     return (
         <div class="card">
             <h2 id="cardTitle">{this.props.title}</h2>
-            <p class="buttonDescription">{this.props.description}</p>
+            <p class="cardDescription">{this.props.description}</p>
             <div id="cardButtonWrapper">
                 <Button
-                    iconLink={this.props.iconLink}
+                    icon={this.props.icon}
                     buttonLink={this.props.buttonLink}
                     buttonText={this.props.buttonText}
                 />

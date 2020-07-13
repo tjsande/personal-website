@@ -7,6 +7,7 @@ import Resume from './containers/resume.js'
 import Footer from './containers/footer.js'
 import Contact from './containers/contact.js'
 import './App.css';
+import Experience from './containers/experience.js';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <Header />
     <body className="body">
       <About />
+      <Experience />
       <Projects />
       <Contact />
       <Footer />
