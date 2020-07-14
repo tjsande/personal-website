@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d7513669c5cfab3d684e19a7a9b35603",
+    "revision": "a0dfda0dd6f8a9427c5b6c483a97e4ac",
     "url": "/index.html"
   },
   {
-    "revision": "5e392cedbc752adb2ebe",
-    "url": "/static/css/main.2f621397.chunk.css"
+    "revision": "570810aaba705c6543ff",
+    "url": "/static/css/main.d5e953c8.chunk.css"
   },
   {
-    "revision": "bd7f23efd0e8e95679e1",
-    "url": "/static/js/2.daa84dd3.chunk.js"
+    "revision": "207200ea6a5fef51ed7d",
+    "url": "/static/js/2.c3bb8733.chunk.js"
   },
   {
-    "revision": "5e392cedbc752adb2ebe",
-    "url": "/static/js/main.272af7ec.chunk.js"
+    "revision": "570810aaba705c6543ff",
+    "url": "/static/js/main.b2376a21.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bfab5a7d2d8ce3dbfc8e5a8a2bb65142",
     "url": "/static/media/ResumeMay2020.bfab5a7d.pdf"
+  },
+  {
+    "revision": "b068a3d5c004bdbd016be80c2f84d4e2",
+    "url": "/static/media/Trevor_Sanderson_July_2020.b068a3d5.pdf"
   },
   {
     "revision": "258ceb33dcda86c652890b210e87e1c6",

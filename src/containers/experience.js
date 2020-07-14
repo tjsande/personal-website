@@ -22,8 +22,8 @@ class Experience extends React.Component {
           </ul>
           <div id="experienceButtonWrapper">
             <Button
-              icon={imgs[1].icon}
-              buttonLink={this.props.buttonLink}
+              icon={imgs[3].icon}
+              buttonLink={imgs[4].resume}
               buttonText="My Resume"
             />
           </div>
