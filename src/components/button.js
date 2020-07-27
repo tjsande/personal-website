@@ -3,7 +3,7 @@ import React from 'react';
 class Button extends React.Component {
   render() {
     return (
-        <a class="button" href={this.props.buttonLink} download>
+      <a class="button" href={this.props.buttonLink} download>
         <img class="buttonIcon" align="left" src={this.props.icon} alt=''></img>
             {this.props.buttonText}
       </a>

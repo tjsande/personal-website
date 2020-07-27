@@ -13,16 +13,16 @@ class ToolBar extends React.Component {
           smooth={true}
           offset={-70}
           duration={500}
-          > About Me </Link>
+          > ABOUT ME </Link>
       </div>
       <div class="toolbarButton">
         <Link class="toolbarButtonActive"
-          to="resume"
+          to="experience"
           spy={true}
           smooth={true}
           offset={-70}
           duration={500}
-          > Resume </Link> 
+          > EXPERIENCE </Link> 
       </div>
       <div class="toolbarButton">
         <Link class="toolbarButtonActive"
@@ -31,16 +31,16 @@ class ToolBar extends React.Component {
           smooth={true}
           offset={-70}
           duration={500}
-          > Projects </Link>
+          > PROJECTS </Link>
       </div>
       <div class="toolbarButton">
         <Link class="toolbarButtonActive"
-          to="contact"
+          to="contactSection"
           spy={true}
           smooth={true}
           offset={-70}
           duration={500}
-        > Contact </Link>
+        > CONTACT </Link>
         </div>
       </div>
     );
