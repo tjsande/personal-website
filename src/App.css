@@ -8,6 +8,7 @@
   display: flex;
   position: absolute;
   align-items: center;
+  justify-content: center;
   z-index: 1;
   height: 12vh;
   min-height: 80px;
@@ -15,24 +16,24 @@
   right: 0;
   width: 100%;
   /* opacity: .83; */
-  /* color:  #333333;
+  /* color:  #38505c;
   background-color: #fff; */
-  color:  #fff;
-  background-color: #38505c;
+  color:  #fff; 
+   background-color: #38505c;
 }
 
 .toolbarButton {
   max-height: 40px;
-  font-size: 1.8vh;
+  font-size: 16px;
   padding-top: 0px;
-  padding-left: 2%;
-  padding-right: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
   font-family: "Open Sans Extrabold";
 }
 
 .toolbarButtonActive {
   max-height: 40px;
-  font-size: 1.8vh;
+  font-size: 16px;
   padding-top: 0px;
 }
 
@@ -345,8 +346,10 @@ h3 {
 
 body, html {
   height: 100%;
+  background-color: #38505c;
 }
 
 #root {
   height: 100%;
+  background-color: #38505c;
 }
