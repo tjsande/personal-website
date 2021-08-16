@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from '../components/button.js';
 import imgs from '../images/images.js';
+import resume from '../images/Trevor_Sanderson_Software_Developer_August_2021.pdf'
 
 class Experience extends React.Component {
   render() {
@@ -23,7 +24,7 @@ class Experience extends React.Component {
           <div id="experienceButtonWrapper">
             <Button
               icon={imgs[3].icon}
-              buttonLink={imgs[4].resume}
+              buttonLink={resume}
               buttonText="My Resume"
             />
           </div>

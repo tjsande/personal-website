@@ -1,5 +1,4 @@
 import React from 'react';
-import michiganUnion from "../images/michigan_Union.jpg";
 import grandRapids from "../images/grand_Rapids.jpg";
 
 class About extends React.Component {
@@ -21,14 +20,6 @@ class About extends React.Component {
                 web development as well as data science. 
               </p>
           </div>
-          
-
-          {/* <div class="aboutParagraph">
-            <img class="aboutImage" src={michiganUnion} alt="Michigan Union"/>
-              <p class="aboutText">
-                I started my 
-              </p>
-          </div> */}
         </body>
       </div>
     )
